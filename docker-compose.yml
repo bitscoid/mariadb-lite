@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  db:
+    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    build: .
+    ports:
+        - '3306:3306'
+    command: sh -c "
+      chmod +x /tmp/test.sh &&
+      /tmp/test.sh"
+    volumes:
+      - "./test.sh:/tmp/test.sh"
