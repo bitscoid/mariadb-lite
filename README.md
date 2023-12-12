@@ -24,6 +24,8 @@
   </div>
 </div>
 
+
+## Description
 Example MariaDB container image for Docker, built on [Alpine Linux](https://www.alpinelinux.org/).
 
 Repository: https://github.com/bitscoid/mariadb-lite
@@ -35,7 +37,6 @@ Repository: https://github.com/bitscoid/mariadb-lite
 * Root User allow local only
 * The logs of all the services are redirected to the output of the Docker container (visible with `docker logs -f <container name>`)
 
-## [![Banten IT Solutions](https://bits.co.id/wp-content/uploads/Logo.png)](https://bits.co.id)
 I can help you with [Web & App Development, Containerization, Kubernetes, Monitoring, Infrastructure as Code.](https://bits.co.id).
 
 ## Goal of this project
