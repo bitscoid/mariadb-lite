@@ -70,8 +70,9 @@ MariaDB Configuration:
 ## Default Password
 Please change default user & password !
 
-| Default    | ------------------------------- |
-| root       | No Password (Local Access Only) |
-| Username   | user_bits                       |
-| Password   | user_password                   |
-| Database   | dbname_bits                     |
+| **Default Credentials** 	| **MariaDB Lite**                	|
+|-------------------------	|---------------------------------	|
+| root                    	| No Password (Local Access Only) 	|
+| Username                	| user_bits                       	|
+| Password                	| user_password                   	|
+| Database Name           	| dbname_bits                     	|
