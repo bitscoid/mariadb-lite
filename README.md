@@ -33,6 +33,32 @@ Create db folder to Mount Volume Database
 
     docker run -p 3306:3306 -v ~/db:/var/lib/mysql bantenitsolutions/mariadb-lite
 
+Build with Docker Compose, create docker-compose.yml
+
+    version: '3.7'
+    services:
+        php:
+            image: 'bantenitsolutions/nginx-php-lite'
+            restart: 'always'
+            volumes:
+                - './app:/var/www/bits'
+                - './server/nginx/nginx.conf:/etc/nginx/nginx.conf'
+                - './server/nginx/http.d/default.conf:/etc/nginx/http.d/default.conf'
+                - './server/php/www.conf:/usr/local/etc/php-fpm.d/www.conf'
+            ports:
+                - '80:80'
+        db:
+            image: 'bantenitsolutions/mariadb-lite'
+            restart: 'always'
+            environment:
+                MYSQL_USER: 'youruser'
+                MYSQL_PASS: 'yourpass'
+                MYSQL_NAME: 'yourdbname'
+            volumes:
+                - './db:/var/lib/mysql'
+            ports:
+                - '3306:3306'
+
 ## Configuration
 In MariaDB you'll find the default configuration files.
 If you want to extend or customize that you can do so by mounting a configuration file in the correct folder;
@@ -44,6 +70,8 @@ MariaDB Configuration:
 ## Default Password
 Please change default user & password !
 
-    root => no password (local access only)
-
-    bits => password (with bits example database name)
+| Default    | ------------------------------- |
+| root       | No Password (Local Access Only) |
+| Username   | user_bits                       |
+| Password   | user_password                   |
+| Database   | dbname_bits                     |
