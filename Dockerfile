@@ -12,9 +12,9 @@ LABEL org.opencontainers.image.vendor="Nurul Imam" \
     org.opencontainers.image.documentation="https://github.com/bitscoid/mariadb-lite"
 
 # MySQL Credentials
-ENV MYSQL_USER=user_bits
-ENV MYSQL_PASS=user_password
-ENV MYSQL_NAME=dbname_bits
+ENV MYSQL_USER=bits_user
+ENV MYSQL_PASS=bits_pass
+ENV MYSQL_NAME=bits_name
 
 # Install MariaDB
 RUN apk -U upgrade && \

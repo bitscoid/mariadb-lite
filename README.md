@@ -93,6 +93,6 @@ Please change default user & password !
 | **Default Credentials** 	| **MariaDB Lite**                	|
 |-------------------------	|---------------------------------	|
 | root                    	| No Password (Local Access Only) 	|
-| Username                	| user_bits                       	|
-| Password                	| user_password                   	|
-| Database Name           	| dbname_bits                     	|
+| Username                	| bits_user                       	|
+| Password                	| bits_pass                     	|
+| Database Name           	| bits_name                     	|
