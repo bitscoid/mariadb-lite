@@ -8,7 +8,7 @@ LABEL org.opencontainers.image.vendor="Nurul Imam" \
     org.opencontainers.image.source="https://github.com/bitscoid/mariadb-lite" \
     org.opencontainers.image.title="MariaDB Lite" \
     org.opencontainers.image.description="MariaDB of Alpine Linux." \
-    org.opencontainers.image.version="2.0" \
+    org.opencontainers.image.version="3.0" \
     org.opencontainers.image.documentation="https://github.com/bitscoid/mariadb-lite"
 
 # MySQL Credentials
