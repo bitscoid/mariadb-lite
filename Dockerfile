@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:3.19
 
 LABEL Maintainer="Nurul Imam <bits.co.id>" \
     Description="MariaDB of Alpine Linux."
