@@ -16,8 +16,8 @@
 
   <div align="center">
     <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/" title="MariaDB Lite"><img src="https://img.shields.io/docker/pulls/bantenitsolutions/mariadb-lite.svg"></a> 
-    <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/" title="Docker Image Version (tag latest semver)"><img src="https://img.shields.io/docker/v/bantenitsolutions/mariadb-lite/2.0"></a> 
-    <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/tags" title="Docker Image Size (tag)"><img src="https://img.shields.io/docker/image-size/bantenitsolutions/mariadb-lite/2.0"></a> 
+    <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/" title="Docker Image Version"><img src="https://img.shields.io/docker/v/bantenitsolutions/mariadb-lite/2.0"></a> 
+    <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/tags" title="Docker Image Size"><img src="https://img.shields.io/docker/image-size/bantenitsolutions/mariadb-lite/2.0"></a> 
     <a href="https://hub.docker.com/r/bantenitsolutions/mariadb-lite/" title="MariaDB 11.2.2"><img src="https://img.shields.io/badge/mariadb-11.2.2-brightgreen.svg"></a> 
     <a href="https://github.com/bitscoid/mariadb-lite/actions/workflows/build.yml" title="Docker Test Image"><img src="https://github.com/bitscoid/mariadb-lite/actions/workflows/build.yml/badge.svg?branch=master"></a> 
     <a href="https://bits.co.id" title="License MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a> 
